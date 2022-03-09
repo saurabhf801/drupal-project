@@ -22,6 +22,7 @@
         "drupal/admin_toolbar": "^3.1",
         "drupal/core-composer-scaffold": "^9.3",
         "drupal/core-recommended": "^9.3",
+        "drupal/erd": "^2.0@alpha",
         "drush/drush": "^10.6",
         "vlucas/phpdotenv": "^5.1",
         "webflo/drupal-finder": "^1.2"

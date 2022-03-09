@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bdac96006988922cfee1ac47905a26af",
+    "content-hash": "765de172dab55131e297ae4e6215c97e",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1757,6 +1757,60 @@
                 "source": "https://github.com/drupal/core-recommended/tree/9.3.7"
             },
             "time": "2022-03-03T09:23:53+00:00"
+        },
+        {
+            "name": "drupal/erd",
+            "version": "2.0.0-alpha2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/erd.git",
+                "reference": "2.0.0-alpha2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/erd-2.0.0-alpha2.zip",
+                "reference": "2.0.0-alpha2",
+                "shasum": "f1ac7fa5afbb7a02943949da47ea7bf4804b72c9"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.0-alpha2",
+                    "datestamp": "1638383800",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Samuel Mortenson",
+                    "homepage": "https://www.drupal.org/u/samuelmortenson",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Contributors",
+                    "homepage": "https://www.drupal.org/node/2691091/committers",
+                    "role": "Contributors"
+                }
+            ],
+            "description": "Provides dynamic entity relationship diagrams for all of your Drupal entities.",
+            "homepage": "https://www.drupal.org/project/erd",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/erd",
+                "issues": "https://www.drupal.org/project/issues/erd"
+            }
         },
         {
             "name": "drush/drush",
@@ -10402,7 +10456,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "drupal/erd": 15
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
