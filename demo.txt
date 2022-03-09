@@ -1,1 +1,1 @@
-This is conflicted file.
+This is second version of conflicted file. 
