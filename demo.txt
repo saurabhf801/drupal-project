@@ -1,1 +1,1 @@
-This is to check git conflict.
+This is second version of conflicted file.
