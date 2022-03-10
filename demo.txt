@@ -1,1 +1,1 @@
-This is my dev file which will show you the conflict during merge.
+This is master version of this file. This is my new version.
