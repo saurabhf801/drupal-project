@@ -1,0 +1,1 @@
+This is my dev file which will show you the conflict during merge.
